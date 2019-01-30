@@ -1,5 +1,6 @@
 package com.example.project1;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,13 +31,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 */
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        ImageView fab = (ImageView)findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                  Intent i = new Intent(Intent.ACTION_VIEW);
-                 i.setData(Uri.parse("https://www.gmail.com"));
-                startActivity(i);﻿
+                 i.addCategory(Intent.CATEGORY_BROWSABLE);
+                 i.setData(Uri.parse("https://www.facebook.com"));
+                 startActivity(i);
             }
         });
     }
