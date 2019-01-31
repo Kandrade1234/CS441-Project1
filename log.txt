@@ -1,0 +1,29 @@
+commit e2ae8ba67ff32c6755d81d5fa369600b04267f01
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Jan 30 22:35:45 2019 -0500
+
+    Added text generator with button click
+
+commit 98008b775f671ddcaf297292a94d365ab611e9eb
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Jan 30 09:19:34 2019 -0500
+
+    added webpage opening to button
+
+commit 0fec69c3086a7dab95f3b02b3cd2d1f7e37c5680
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Jan 30 01:57:37 2019 -0500
+
+    attempting to make webpage open
+
+commit 87556aef4ac695384e9bafe8e0d34ee8e03e681b
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Mon Jan 28 00:25:07 2019 -0500
+
+    I tracked all files
+
+commit 2490c5a3ab8c46edbb38d54197afe25da5ae1787
+Author: Kevin Andrade <35554779+Kandrade1234@users.noreply.github.com>
+Date:   Mon Jan 28 00:07:55 2019 -0500
+
+    Initial commit

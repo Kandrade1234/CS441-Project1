@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-      int tracker = 0;
+    int tracker = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +50,6 @@ public class MainActivity extends AppCompatActivity {
                 text.setText(jokes[tracker]);
                 tracker++;
                 if(tracker > 5) tracker = 0;
-
             }
         });
 
