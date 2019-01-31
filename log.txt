@@ -1,8 +1,24 @@
+commit d5aadb8d5b04717fd552846a3d9b5dcf19b54368
+Author: Kevin Andrade <kandrad2@binghamton.edu>
+Date:   Wed Jan 30 22:57:17 2019 -0500
+
+    Final touches
+
+ .../java/com/example/project1/MainActivity.java    |  3 +--
+ README.md                                          |  6 +++--
+ log.txt                                            | 29 ++++++++++++++++++++++
+ 3 files changed, 34 insertions(+), 4 deletions(-)
+
 commit e2ae8ba67ff32c6755d81d5fa369600b04267f01
 Author: Kevin Andrade <kandrad2@binghamton.edu>
 Date:   Wed Jan 30 22:35:45 2019 -0500
 
     Added text generator with button click
+
+ .../java/com/example/project1/MainActivity.java    | 27 +++++++++++++++++++++-
+ Project1/app/src/main/res/layout/activity_main.xml |  1 +
+ Project1/app/src/main/res/layout/content_main.xml  | 13 +++++++++++
+ 3 files changed, 40 insertions(+), 1 deletion(-)
 
 commit 98008b775f671ddcaf297292a94d365ab611e9eb
 Author: Kevin Andrade <kandrad2@binghamton.edu>
@@ -10,11 +26,17 @@ Date:   Wed Jan 30 09:19:34 2019 -0500
 
     added webpage opening to button
 
+ .../app/src/main/java/com/example/project1/MainActivity.java     | 9 ++++++---
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+
 commit 0fec69c3086a7dab95f3b02b3cd2d1f7e37c5680
 Author: Kevin Andrade <kandrad2@binghamton.edu>
 Date:   Wed Jan 30 01:57:37 2019 -0500
 
     attempting to make webpage open
+
+ .../src/main/java/com/example/project1/MainActivity.java | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
 
 commit 87556aef4ac695384e9bafe8e0d34ee8e03e681b
 Author: Kevin Andrade <kandrad2@binghamton.edu>
@@ -22,8 +44,54 @@ Date:   Mon Jan 28 00:25:07 2019 -0500
 
     I tracked all files
 
+ Project1/.gitignore                                |  13 ++
+ Project1/.idea/codeStyles/Project.xml              |  29 ++++
+ Project1/.idea/gradle.xml                          |  15 ++
+ Project1/.idea/misc.xml                            |   9 ++
+ Project1/.idea/runConfigurations.xml               |  12 ++
+ Project1/.idea/vcs.xml                             |   6 +
+ Project1/app/.gitignore                            |   1 +
+ Project1/app/build.gradle                          |  29 ++++
+ Project1/app/proguard-rules.pro                    |  21 +++
+ .../example/project1/ExampleInstrumentedTest.java  |  26 ++++
+ Project1/app/src/main/AndroidManifest.xml          |  24 +++
+ .../java/com/example/project1/MainActivity.java    |  52 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ Project1/app/src/main/res/layout/activity_main.xml |  33 ++++
+ Project1/app/src/main/res/layout/content_main.xml  |  20 +++
+ Project1/app/src/main/res/menu/menu_main.xml       |  10 ++
+ .../src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.png   | Bin 0 -> 2963 bytes
+ .../src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.png   | Bin 0 -> 2060 bytes
+ .../src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.png  | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ .../app/src/main/res/mipmap-xxhdpi/ic_launcher.png | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ Project1/app/src/main/res/values/colors.xml        |   6 +
+ Project1/app/src/main/res/values/dimens.xml        |   3 +
+ Project1/app/src/main/res/values/strings.xml       |   4 +
+ Project1/app/src/main/res/values/styles.xml        |  20 +++
+ .../java/com/example/project1/ExampleUnitTest.java |  17 ++
+ Project1/build.gradle                              |  27 ++++
+ Project1/gradle.properties                         |  15 ++
+ Project1/gradle/wrapper/gradle-wrapper.jar         | Bin 0 -> 54329 bytes
+ Project1/gradle/wrapper/gradle-wrapper.properties  |   6 +
+ Project1/gradlew                                   | 172 +++++++++++++++++++++
+ Project1/gradlew.bat                               |  84 ++++++++++
+ Project1/settings.gradle                           |   1 +
+ 41 files changed, 869 insertions(+)
+
 commit 2490c5a3ab8c46edbb38d54197afe25da5ae1787
 Author: Kevin Andrade <35554779+Kandrade1234@users.noreply.github.com>
 Date:   Mon Jan 28 00:07:55 2019 -0500
 
     Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
